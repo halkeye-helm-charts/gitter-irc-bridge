@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: halkeye/gitter-slack-bridge
-  tag: latest
+  tag: "{{ .Chart.AppVersion }}"
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
